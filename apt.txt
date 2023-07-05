@@ -1,0 +1,4 @@
+emacs
+nano
+vim
+tree

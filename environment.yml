@@ -1,16 +1,58 @@
-# This is the standard conda configuration file. Use this file to list
-# the conda packages that you need installed in your environment.
 channels:
   - conda-forge
+  - pytorch
+  - bioconda
 
 dependencies:
   - jupyter_contrib_nbextensions==0.5.1
-  # Required until https://github.com/jupyterhub/repo2docker/pull/1196 is merged
-  - jupyterhub-singleuser>=3.0,<4.0
-  # Set default python version to 3.10 - repo2docker sets it to 3.7 instead by default,
-  # which can limit us to older package versions
-  - python=3.10
-  # Everyone wants to use nbgitpuller for everything, so let's do that
-  - nbgitpuller=1.1.*
-  # Add other packages here
-  # -
+  - jupyterhub-base==2.3.1
+  - jupyterhub-singleuser=2.3.1
+  - numpy
+  - matplotlib
+  - scipy
+  - pandas
+  - tqdm
+  - s3fs
+  - awscli
+  - scikit-learn
+  - datalad
+  - datalad-container
+  - singularity
+  - altair
+  - seaborn
+  - graphviz
+  - pygraphviz
+  - python-graphviz
+  - jax
+  - numba
+  - cython
+  - pytorch
+  - torchvision
+  - dcm2niix
+  - openneuro-py
+  - ipyvolume
+  - nodejs
+  - pymvpa
+  - s5cmd
+  - imbalanced-learn
+  - pip:
+    - nbgitpuller
+    - pymef
+    - pybids
+    - nipype
+    - neuropythy
+    - dipy
+    - mne
+    - nilearn
+    - dask[complete]
+    - requests==2.28.1
+    - nimare==0.0.12
+    - osfclient
+    - line_profiler
+    - memory_profiler
+    - black
+    - mne_bids
+    - ipympl
+    - pyfftw
+    - pliers
+    - duecredit
