@@ -56,3 +56,4 @@ dependencies:
     - pyfftw
     - pliers
     - duecredit
+    - git-credential-helpers
