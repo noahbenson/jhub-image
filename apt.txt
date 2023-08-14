@@ -2,3 +2,4 @@ emacs
 nano
 vim
 tree
+default-jre
