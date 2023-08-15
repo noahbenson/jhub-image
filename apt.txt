@@ -3,3 +3,4 @@ nano
 vim
 tree
 default-jre
+ffmpeg
