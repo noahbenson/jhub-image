@@ -35,6 +35,7 @@ dependencies:
   - pymvpa
   - s5cmd
   - imbalanced-learn
+  - tensorflow
   - pip:
     - nbgitpuller
     - pymef
