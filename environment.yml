@@ -36,6 +36,7 @@ dependencies:
   - s5cmd
   - imbalanced-learn
   - tensorflow
+  - nitime
   - pip:
     - nbgitpuller
     - pymef
