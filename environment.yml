@@ -42,7 +42,7 @@ dependencies:
     - pymef
     - pybids
     - nipype
-    - neuropythy
+    - neuropythy>=0.12.15
     - dipy
     - mne
     - nilearn
